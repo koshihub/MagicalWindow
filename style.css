@@ -1,0 +1,62 @@
+.c {
+ 	position: relative;
+}
+
+.a {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.w {
+	overflow: hidden;
+	width: 400px;
+	height: 300px;
+}
+
+.menu {
+	height: 60px;
+	line-height: 60px;
+}
+
+html {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#background {
+	background-color: #fee;
+}
+
+#foreground {
+	background-image: url("./images/frame.png");
+}
+
+.snow.particle { 
+	position:absolute;
+	width:20px;
+	height:20px;
+
+	background: -webkit-radial-gradient(
+		10px 10px, 6px 6px,
+		rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0)
+	);
+	background: -moz-radial-gradient(
+		10px 10px, 6px 6px,
+		rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0)
+	);
+	background: radial-gradient(
+		6px 6px at 10px 10px, 
+		rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0)
+	);
+}
